@@ -3,7 +3,7 @@ Code for paper 'Adversarial Attacks Using Half-Neighbor Masks for Object Detecti
 
 We propose a Half-Neighbor Masked Projected Gradient Descent (HNM-PGD) attack that can fool object detection systems under the following constraints:
 
-1. The maximum limit of changed pixel rate in total pixel of the original image is up to $2\%$, i.e., for MS COCO dataset, the maximum number of changed pixels is 5000;
+1. The maximum limit of changed pixel rate in total pixel of the original image is up to 2%, i.e., for MS COCO dataset, the maximum number of changed pixels is 5000;
 2. The number of 8-connectivity regions is not greater than 10.
 
 We also applied the proposed HNM-PGD attack in the [CIKM 2020 AnalytiCup Competition](https://www.cikm2020.org/adversarial-challenge-on-object-detection/), which was ranked within the top 1\% on the leaderboard (17/1701).
