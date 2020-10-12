@@ -11,7 +11,7 @@ We also applied the proposed HNM-PGD attack in the [CIKM 2020 AnalytiCup Competi
 HNM-PGD’s workflow can be shown as:
 
 <p align="center">
-    <img src="figures/pipline.png" width="500"\>
+    <img src="figures/pipline.png" width="800"\>
 </p>
 
 Where we first compute a given input example's salience map, and conduct a Half-Neighbor (HN) procedure to produce a mask that meet the above constraints. The HN procedure here is inspired by K-Nearest-Neighbor algorithm. To be specific, if half of a pixel's neighbors have been chosen by the current mask, then this pixel would also be chosen, otherwise it will be discarded. Final, we employ a PGD adversary to generate adversarial patch via working with a mask.
@@ -19,7 +19,7 @@ Where we first compute a given input example's salience map, and conduct a Half-
 For more details, you are welcome to check our paper and run our code as:
 
 ```shell
-python file_name.py
+python hnm_pgd.py
 ```
 
 The experimental requirement and dataset can be found [here](https://tianchi.aliyun.com/competition/entrance/531806/information).
