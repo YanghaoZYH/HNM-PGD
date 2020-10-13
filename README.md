@@ -19,10 +19,13 @@ Where we first compute a given input example's salience map, and conduct a Half-
 For more details, you are welcome to check our paper and run our code as:
 
 ```shell
+# download data.zip from AnalytiCup Competition's website, and unzip it.
+mv hnm_gpd.py hnm_utils.py ./data/eval_code/
+cd /data/eval_code
 python hnm_pgd.py
 ```
 
-The experimental requirement and dataset can be found [here](https://tianchi.aliyun.com/competition/entrance/531806/information).
+The experimental requirement and dataset can be found in [AnalytiCup Competition's website](https://tianchi.aliyun.com/competition/entrance/531806/information).
 
 
 
