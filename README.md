@@ -1,5 +1,5 @@
 # HNM-PGD
-Code for paper 'Adversarial Attacks Using Half-Neighbor Masks for Object Detection'
+Code for paper 'Fooling Object Detectors: Adversarial Attacks by Half-Neighbor Masks'
 
 We propose a Half-Neighbor Masked Projected Gradient Descent (HNM-PGD) attack that can fool object detection systems under the following constraints:
 
